@@ -34,7 +34,8 @@ https://openweathermap.org/ .
 
 ## Getting started
 #### Prerequisites
-- Docker
+- docker 
+- docker-compose
 
 #### Installation
 1. Clone this repo and change directory to weather-app folder
