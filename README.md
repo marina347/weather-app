@@ -32,7 +32,7 @@ https://openweathermap.org/ .
 - PHP 7.4
 - Composer
 
-##Getting started
+## Getting started
 #### Prerequisites
 - Docker
 
@@ -56,9 +56,9 @@ You can also start unit tests:
 
 After providing city for bash script weather data will be printed out to console.
 
- ![Weather info for Berlin]('')
+![Weather info for Berlin](https://user-images.githubusercontent.com/18744725/109013441-75a67980-76b3-11eb-9492-7b6a80fe195c.png)
  
-(icon matches the weather condition to make it more interesting :) Try with other cities to get other icons.)
+(Icon matches the weather condition to make it more interesting :) Try with other cities to get other icons.)
 
 
 
