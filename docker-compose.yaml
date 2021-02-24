@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  composer:
+    image: composer:2.0
+    command: composer install
+    volumes:
+      - ./:/app
+
+  app:
+    image: php:7.4.15-cli-alpine3.13
+    env_file:
+      - .env
+      - .env.local
+    volumes:
+      - ./:/app
+    command: php /app/src/weather.php "Berlin"
