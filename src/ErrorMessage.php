@@ -26,7 +26,7 @@ class ErrorMessage
     public const ERROR_FETCHING_WEATHER_DATA = 'Error while fetching weather data';
 
     public const ERROR_CITY_NOT_FOUND = 'City not found. Please correct your input';
-    public const ERROR_API_KEY_INVALID = 'API key is not invalid. Check the configuration';
+    public const ERROR_API_KEY_INVALID = 'API key is not valid. Check the configuration';
     public const ERROR_MISSING_CONFIG = 'Cannot boot application, missing config';
     public const ERROR_GENERAL = 'Unknown error occured';
 
